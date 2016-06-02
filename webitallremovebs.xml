@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>plg_system_webitallremovebs</name>
+	<author>Webitall Aps</author>
+	<creationDate>Maj 2016</creationDate>
+	<copyright>(C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+	<authorEmail>christoffer@webitall.dk</authorEmail>
+	<authorUrl>www.webitall.dk</authorUrl>
+	<version>1.0.0</version>
+	<description>Fjerner Joomla's standard bootstrap</description>
+	<files>
+		<file plugin="webitallremovebs">webitallremovebs.php</file>
+    	<filename>index.html</filename>
+	</files>
+	<languages>
+	</languages>
+</extension>
